@@ -1,4 +1,5 @@
 import React from "react";
+//will be protected with middleware then expand it to only allow admins
 
 const CreateUser = () => {
   return (
