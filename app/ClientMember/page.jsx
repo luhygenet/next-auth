@@ -10,6 +10,7 @@ const Member = () => {
       redirect("api/auth/signin?callbackUrl=/ClientMember");
     },
   });
+  //added a comment
   return (
     <div>
       <h1>Member Client Session</h1>
