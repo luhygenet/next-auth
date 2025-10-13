@@ -13,6 +13,7 @@ export default withAuth(function middleware(req) {
     req.nextauth.token.role != "admin"
   ) {
     return NextResponse.rewrite(new URL("/Denied", req.url));
+    //added the withauth comment
   }
 
 },
