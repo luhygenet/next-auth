@@ -30,7 +30,7 @@ export async function POST(req) {
 
     await User.create(userData);
     console.log("Created user:", userData);
-    return NextResponse.json({ message: "User Created" }, { status: 201 });
+    return NextResponse.json({ message: "User Created successfully" }, { status: 201 });
     //or
 
     // if (!userData || Object.keys(userData).length === 0) {
