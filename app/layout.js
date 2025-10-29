@@ -1,6 +1,6 @@
 import Nav from "./(components)/Nav";
 import "./globals.css";
-import AuthProvider from "./(components)/AuthProvider";
+import { AuthProvider } from "../lib/auth-context"
 
 export const metadata = {
   title: "Create Next App",

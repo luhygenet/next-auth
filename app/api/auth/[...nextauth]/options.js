@@ -8,10 +8,10 @@ export const options = {
   providers: [
     GitHubProvider({
       profile(profile) {
-        // console.log("Profile Github: ", profile);
+        // console.log("Profile Gthub: ", profile);
 
         let userRole = "Github User";
-        if (profile?.email == "liya.daniel.zeleke@gmail.com") {
+        if (profile?.email == "luhygenet@gmail.com") {
           userRole = "admin";
         }
 
@@ -29,7 +29,7 @@ export const options = {
         // console.log("Profile Google: ", profile);
         let userRole = "Google User";
 
-        if (profile?.email == "liya.daniel.zeleke@gmail.com") {
+        if (profile?.email == "luhygenet@gmail.com") {
           userRole = "admin";
         }
         return {
@@ -77,9 +77,8 @@ export const options = {
             }
           }
         } catch (error) {
-          console.log(error);
+          console.log("Authorize error: ", error);
         }
-        return null;
       },
     }),
   ],
