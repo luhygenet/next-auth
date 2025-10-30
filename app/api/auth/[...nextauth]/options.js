@@ -9,6 +9,7 @@ export const options = {
     GitHubProvider({
       profile(profile) {
         // console.log("Profile Gthub: ", profile);
+        // hi
 
         let userRole = "Github User";
         if (profile?.email == "luhygenet@gmail.com") {
