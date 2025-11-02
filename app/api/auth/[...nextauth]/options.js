@@ -11,6 +11,7 @@ export const options = {
         // console.log("Profile Gthub: ", profile);
         // hi
         // tmrw hopefully
+        //nege
 
         let userRole = "Github User";
         if (profile?.email == "luhygenet@gmail.com") {
